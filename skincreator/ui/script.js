@@ -27,6 +27,7 @@ $(document).ready(function(){
     // Close Skin Creator
     if(event.data.openSkinCreator == false){
       $(".skinCreator").fadeOut(400);
+	  $(".rotation").fadeOut(400);
       $("#cursorPointer").css("display","none");
     }
 
